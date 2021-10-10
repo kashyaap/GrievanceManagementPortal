@@ -11,6 +11,7 @@ node server.js
 ```
 6. Open http://localhost:3000/ on your browser tab
 ## Project Structure
+```
 .
 +-- server.js
 +-- public
@@ -21,8 +22,9 @@ node server.js
 +-- .gitignore
 +-- fakeCasesData.json
 
+```
 ## Demo Video
-[Demo video link]https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing
+[Demo video link] (https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
 
 ## Tech Spec
 1. Front End: HTML, CSS(Bootstrap), Javascript(Jquery)
@@ -34,4 +36,4 @@ node server.js
 2. Responsive
 
 ## Technical Details
-[Documentation link]https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing
+[Documentation link] (https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
