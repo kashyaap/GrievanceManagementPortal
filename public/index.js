@@ -1,5 +1,3 @@
-
-
 var caseTable = $('#caseTable');
 window.onload = function() {
 console.log("inwindow on load");
@@ -9,11 +7,10 @@ console.log("inwindow on load");
         type: 'GET',
         dataType: 'json',
         success:function(result){
-        console.log("window load hogayi hai, and get request success hogayi hai");
-        console.log(result["key"][0]);
+        console.log("Window is loaded, request is successful");
 
         // caseTable.html(result["key"][0]["case_no"])- testing
-        
+
         for (var i=0; i<result["key"].length; i++) {
             var row = $('<tr><td>' + result["key"][i].case_no+ '</td><td>' + result["key"][i].branch + '</td><td>' + result["key"][i].reporting_method + '</td><td>'+
             result["key"][i].date + '</td><td>' +result["key"][i].time + '</td><td>' +result["key"][i].category +
