@@ -12,7 +12,8 @@ node server.js
 6. Open http://localhost:3000/ on your browser tab
 ## Project Structure
 ```
-.
+Project
+
 +-- server.js
 +-- public
 |   +-- index.html
