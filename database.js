@@ -19,6 +19,7 @@ var caseSchema = new Schema({
     case_reporter: String,
     case_status: String
 });
+
 var cases = mongoose.model('cases',caseSchema);
 
 // mongoose.connect(process.env.Database_GMP_URL)

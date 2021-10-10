@@ -1,4 +1,5 @@
 
+
 var caseTable = $('#caseTable');
 window.onload = function() {
 console.log("inwindow on load");
@@ -10,11 +11,27 @@ console.log("inwindow on load");
         success:function(result){
         console.log("window load hogayi hai, and get request success hogayi hai");
         console.log(result["key"][0]);
-        caseTable.html(result["key"][0]["_id"])
+
+        // caseTable.html(result["key"][0]["case_no"])- testing
+        
+        for (var i=0; i<result["key"].length; i++) {
+            var row = $('<tr><td>' + result["key"][i].case_no+ '</td><td>' + result["key"][i].branch + '</td><td>' + result["key"][i].reporting_method + '</td><td>'+
+            result["key"][i].date + '</td><td>' +result["key"][i].time + '</td><td>' +result["key"][i].category +
+            '</td><td>' +result["key"][i].sub_category + '</td><td>' +result["key"][i].priority + '</td><td>' +result["key"][i].nature + '</td><td>' +
+            result["key"][i].case_manager + '</td><td>'  + result["key"][i].case_reporter + '</td><td>' +  result["key"][i].case_status + '</td><td>'
+              +'</td></tr>');
+            $('#mytable').append(row);
+          }
+        },
+        error: function(jqXHR, textStatus, errorThrown){
+          alert('Error: ' + textStatus + ' - ' + errorThrown);
+        }
+
+
 
 
         }
-    }
+
     )
 }
 
