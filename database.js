@@ -22,11 +22,6 @@ var caseSchema = new Schema({
 
 var cases = mongoose.model('cases',caseSchema);
 
-// mongoose.connect(process.env.Database_GMP_URL)
-// const db = mongoose.connection
-// db.on('error', (error) => console.error(error))
-// db.once('open', (error) => console.log('Connected to Database'))
-
 function connect(){
     mongoose.connect(process.env.Database_GMP_URL,function(err){
       if(err) throw err;
