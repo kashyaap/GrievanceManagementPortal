@@ -25,7 +25,7 @@ Project
 
 ```
 ## Demo Video
-[Demo video link] (https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
+[Demo video link](https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
 
 ## Tech Spec
 1. Front End: HTML, CSS(Bootstrap), Javascript(Jquery)
@@ -37,4 +37,4 @@ Project
 2. Responsive
 
 ## Technical Details
-[Documentation link] (https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
+[Documentation link](https://drive.google.com/drive/folders/1a918ma6yoyopL_EV5QSH10Q_xoW9cVVG?usp=sharing)
