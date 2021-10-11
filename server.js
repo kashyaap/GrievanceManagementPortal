@@ -3,11 +3,6 @@ const bodyParser= require ('body-parser');
 const app = express()
 const database=require('./database.js')
 
-// app.use(express.json())
-// const informationRouter = require('./routes/information')
-// app.use('/information',informationRouter)
-// app.listen(3000, () => console.log('Server Started'))
-
 app.use(bodyParser.urlencoded({extended: true}));
 app.use(bodyParser.json());
 
@@ -38,14 +33,3 @@ app.use(function(err, req, res, next){
   console.log('server running on port 3000');
   database.connect();
 })
-// module.exports={
-//   fetcher.fetchData:function(callback){
-//     var casesData=userTable.find({});
-//     casesData.exec(funtion(err,data)
-//     {
-//       if(err) throw err;
-//       return callback(data);
-//     }
-//     )
-//   }
-// }
